@@ -1,0 +1,65 @@
+body{
+    background: url(papyrus.jpg) no-repeat;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
+p{
+    margin-top: 5px;
+}
+
+.line{
+   border-style: double;
+   border-width: 5px;
+   border-color: black;
+   left: 20px;
+   position: absolute;
+   top: 20px;
+   height: 650px;
+   width: 1220px;
+      
+}
+.photo{
+    position: relative;
+    left: 550px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background: url(eye-protection-98852_640.png) no-repeat;    
+}
+
+.name{
+    position: relative;
+    left: 250px;
+    top: 60px;
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    
+}
+.infos{
+    position: relative;
+    top: 120px;
+    left: 60px;
+    height: 300px;
+    width: 700px;
+    text-align: left;
+    //border-style: solid;
+    border-width: 2px;
+    border-color: black;
+      
+}
+.contact{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    height: 300px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
+}
